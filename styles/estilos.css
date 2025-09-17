@@ -1,0 +1,26 @@
+@media(min-width: 768px) {
+    .card-img-height {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.card {
+  transition: transform 0.3s ease-in-out; /* Añade una transición suave a la propiedad 'transform' */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Eleva la tarjeta 5px al pasar el mouse */
+  /* O puedes usar: */
+  /* transform: scale(1.03); /* Escala la tarjeta a 103% de su tamaño */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Opcional: añade una sombra sutil */
+}
+
+.mi-imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.programador-link {
+  text-decoration: none;
+}
